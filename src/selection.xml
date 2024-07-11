@@ -1,0 +1,243 @@
+
+<lcgdict>
+    <selection>
+
+        <!-- components -->
+        <class name="edm4hep::Vector4f" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::Vector4f>" ClassVersion="1"/>
+        <class name="edm4hep::Vector3f" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::Vector3f>" ClassVersion="1"/>
+        <class name="edm4hep::Vector3d" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::Vector3d>" ClassVersion="1"/>
+        <class name="edm4hep::Vector2i" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::Vector2i>" ClassVersion="1"/>
+        <class name="edm4hep::Vector2f" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::Vector2f>" ClassVersion="1"/>
+        <class name="edm4hep::CovMatrix2f" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::CovMatrix2f>" ClassVersion="1"/>
+        <class name="edm4hep::CovMatrix3f" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::CovMatrix3f>" ClassVersion="1"/>
+        <class name="edm4hep::CovMatrix4f" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::CovMatrix4f>" ClassVersion="1"/>
+        <class name="edm4hep::CovMatrix6f" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::CovMatrix6f>" ClassVersion="1"/>
+        <class name="edm4hep::TrackState" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::TrackState>" ClassVersion="1"/>
+        <class name="edm4hep::Quantity" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::Quantity>" ClassVersion="1"/>
+
+        <!-- datatypes -->
+        <class name="edm4hep::EventHeaderData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::EventHeaderData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableEventHeader" ClassVersion="1"/>
+
+        <class name="edm4hep::EventHeader" ClassVersion="1"/>
+
+        <class name="edm4hep::EventHeaderCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::MCParticleData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::MCParticleData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableMCParticle" ClassVersion="1"/>
+
+        <class name="edm4hep::MCParticle" ClassVersion="1"/>
+
+        <class name="edm4hep::MCParticleCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::SimTrackerHitData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::SimTrackerHitData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableSimTrackerHit" ClassVersion="1"/>
+
+        <class name="edm4hep::SimTrackerHit" ClassVersion="1"/>
+
+        <class name="edm4hep::SimTrackerHitCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::CaloHitContributionData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::CaloHitContributionData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableCaloHitContribution" ClassVersion="1"/>
+
+        <class name="edm4hep::CaloHitContribution" ClassVersion="1"/>
+
+        <class name="edm4hep::CaloHitContributionCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::SimCalorimeterHitData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::SimCalorimeterHitData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableSimCalorimeterHit" ClassVersion="1"/>
+
+        <class name="edm4hep::SimCalorimeterHit" ClassVersion="1"/>
+
+        <class name="edm4hep::SimCalorimeterHitCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::RawCalorimeterHitData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::RawCalorimeterHitData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableRawCalorimeterHit" ClassVersion="1"/>
+
+        <class name="edm4hep::RawCalorimeterHit" ClassVersion="1"/>
+
+        <class name="edm4hep::RawCalorimeterHitCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::CalorimeterHitData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::CalorimeterHitData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableCalorimeterHit" ClassVersion="1"/>
+
+        <class name="edm4hep::CalorimeterHit" ClassVersion="1"/>
+
+        <class name="edm4hep::CalorimeterHitCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::ParticleIDData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::ParticleIDData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableParticleID" ClassVersion="1"/>
+
+        <class name="edm4hep::ParticleID" ClassVersion="1"/>
+
+        <class name="edm4hep::ParticleIDCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::ClusterData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::ClusterData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableCluster" ClassVersion="1"/>
+
+        <class name="edm4hep::Cluster" ClassVersion="1"/>
+
+        <class name="edm4hep::ClusterCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::TrackerHit3DData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::TrackerHit3DData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableTrackerHit3D" ClassVersion="1"/>
+
+        <class name="edm4hep::TrackerHit3D" ClassVersion="1"/>
+
+        <class name="edm4hep::TrackerHit3DCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::TrackerHitPlaneData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::TrackerHitPlaneData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableTrackerHitPlane" ClassVersion="1"/>
+
+        <class name="edm4hep::TrackerHitPlane" ClassVersion="1"/>
+
+        <class name="edm4hep::TrackerHitPlaneCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::RawTimeSeriesData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::RawTimeSeriesData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableRawTimeSeries" ClassVersion="1"/>
+
+        <class name="edm4hep::RawTimeSeries" ClassVersion="1"/>
+
+        <class name="edm4hep::RawTimeSeriesCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::TrackData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::TrackData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableTrack" ClassVersion="1"/>
+
+        <class name="edm4hep::Track" ClassVersion="1"/>
+
+        <class name="edm4hep::TrackCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::VertexData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::VertexData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableVertex" ClassVersion="1"/>
+
+        <class name="edm4hep::Vertex" ClassVersion="1"/>
+
+        <class name="edm4hep::VertexCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::ReconstructedParticleData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::ReconstructedParticleData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableReconstructedParticle" ClassVersion="1"/>
+
+        <class name="edm4hep::ReconstructedParticle" ClassVersion="1"/>
+
+        <class name="edm4hep::ReconstructedParticleCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::MCRecoParticleAssociationData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::MCRecoParticleAssociationData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableMCRecoParticleAssociation" ClassVersion="1"/>
+
+        <class name="edm4hep::MCRecoParticleAssociation" ClassVersion="1"/>
+
+        <class name="edm4hep::MCRecoParticleAssociationCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::MCRecoCaloAssociationData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::MCRecoCaloAssociationData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableMCRecoCaloAssociation" ClassVersion="1"/>
+
+        <class name="edm4hep::MCRecoCaloAssociation" ClassVersion="1"/>
+
+        <class name="edm4hep::MCRecoCaloAssociationCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::MCRecoTrackerAssociationData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::MCRecoTrackerAssociationData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableMCRecoTrackerAssociation" ClassVersion="1"/>
+
+        <class name="edm4hep::MCRecoTrackerAssociation" ClassVersion="1"/>
+
+        <class name="edm4hep::MCRecoTrackerAssociationCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::MCRecoCaloParticleAssociationData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::MCRecoCaloParticleAssociationData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableMCRecoCaloParticleAssociation" ClassVersion="1"/>
+
+        <class name="edm4hep::MCRecoCaloParticleAssociation" ClassVersion="1"/>
+
+        <class name="edm4hep::MCRecoCaloParticleAssociationCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::MCRecoClusterParticleAssociationData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::MCRecoClusterParticleAssociationData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableMCRecoClusterParticleAssociation" ClassVersion="1"/>
+
+        <class name="edm4hep::MCRecoClusterParticleAssociation" ClassVersion="1"/>
+
+        <class name="edm4hep::MCRecoClusterParticleAssociationCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::MCRecoTrackParticleAssociationData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::MCRecoTrackParticleAssociationData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableMCRecoTrackParticleAssociation" ClassVersion="1"/>
+
+        <class name="edm4hep::MCRecoTrackParticleAssociation" ClassVersion="1"/>
+
+        <class name="edm4hep::MCRecoTrackParticleAssociationCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::RecoParticleVertexAssociationData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::RecoParticleVertexAssociationData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableRecoParticleVertexAssociation" ClassVersion="1"/>
+
+        <class name="edm4hep::RecoParticleVertexAssociation" ClassVersion="1"/>
+
+        <class name="edm4hep::RecoParticleVertexAssociationCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::TimeSeriesData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::TimeSeriesData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableTimeSeries" ClassVersion="1"/>
+
+        <class name="edm4hep::TimeSeries" ClassVersion="1"/>
+
+        <class name="edm4hep::TimeSeriesCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::RecDqdxData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::RecDqdxData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableRecDqdx" ClassVersion="1"/>
+
+        <class name="edm4hep::RecDqdx" ClassVersion="1"/>
+
+        <class name="edm4hep::RecDqdxCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::GeneratorEventParametersData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::GeneratorEventParametersData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableGeneratorEventParameters" ClassVersion="1"/>
+
+        <class name="edm4hep::GeneratorEventParameters" ClassVersion="1"/>
+
+        <class name="edm4hep::GeneratorEventParametersCollection" ClassVersion="1"/>
+
+        <class name="edm4hep::GeneratorPdfInfoData" ClassVersion="1"/>
+        <class name="std::vector<edm4hep::GeneratorPdfInfoData>" ClassVersion="1"/>
+        <class name="edm4hep::MutableGeneratorPdfInfo" ClassVersion="1"/>
+
+        <class name="edm4hep::GeneratorPdfInfo" ClassVersion="1"/>
+
+        <class name="edm4hep::GeneratorPdfInfoCollection" ClassVersion="1"/>
+
+
+        <!-- previous schema components and pods -->
+
+    </selection>
+
+</lcgdict>
